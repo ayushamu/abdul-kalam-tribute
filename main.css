@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5fd;
+    font-family: 'Times New Roman';
+    border: 10px,solid, #1d1e4c;
+}
+
+.header{
+    
+    display: flex;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-top: 5vw;
+
+    
+
+}
+
+.apjpic{
+    border: 1px,solid,black;
+    width: 300px;
+    height: 320px;
+    background-image: url('assets/images/apj.jpg');
+    background-size: cover;
+    border-radius: 50%;
+      
+}
+
+.heading{
+    /* width: 300px; */
+    
+    
+}
+#name{
+    color: #1d1e4c;
+    font-weight: bold;
+    position: relative;
+    font-size:50px;
+    top: 170px;
+    
+    
+}
+#dosi{
+    font-size: 30px;
+    position: relative; 
+    top: 250px;
+    padding-left: 25px;
+}
+#mmoi{
+    font-size: 70px;
+    font-weight: 400;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-top: 3vw;
+
+}
+#para{
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-top: 2vw;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.7;
+    text-align: justify;
+}
+.biographies{
+    margin-top: 3vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+li{
+    margin-top: 8px;
+}
+
+.footer{
+    margin-top: 40px;
+    margin-right: 20vw;
+    margin-bottom: 40px;
+    text-align: right;
+}
